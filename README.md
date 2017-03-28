@@ -2,10 +2,19 @@
 
 Esse repositório foi feita pra compartilharmos alias e functions que facilitam nossas vidas no terminal
 
-**Ir até a pasta certa**
-
 Para funcionar basta clonar esse repositório na pasta custom do oh-my-shell, onde estão todas
-as configurações particulares do usuário.
+as configurações particulares do usuário. Mas para funcionar siga os seguintes passos.
+
+**Deletar arquivos da pasta custom**
+Você precisa apagar o conteúdo da pasta para poder clonar nela.
+```
+#!bash
+
+m -rf ~/.oh-my-zsh/custom/* -> arquivos normais
+m -rf ~/.oh-my-zsh/custom/.* -> arquivos ocultos
+
+```
+**Ir até a pasta certa**
 ```
 #!bash
 path da pasta = ~/.oh-my-zsh/custom/
