@@ -6,6 +6,7 @@ Para funcionar basta clonar esse repositório na pasta custom do oh-my-shell, on
 as configurações particulares do usuário. Mas para funcionar siga os seguintes passos.
 
 **Deletar arquivos da pasta custom**
+
 Você precisa apagar o conteúdo da pasta para poder clonar nela.
 ```
 #!bash
